@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test parallel="classes" thread-count="4" verbose="2" preserve-order="true" name="C:/Users/Ashish.Eerapuram/IdeaProjects/OpenCartAutomationProject">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="TC01_ValidateLoginSuccessful"></class>
+            <class name="TC02_AccountDetailsPageDisplayed"></class>
+            <class name="TC03_ValidateAccountDetailsLink"></class>
+            <class name="TC04_ClickAccountDetailsLink"></class>
+            <class name="TC05_ValidateEditAccontInformationPage"></class>
+            <class name="TC06_validateWebElement_EditAccountDetailsPage"></class>
+            <class name="TC07_ValidateEditAccountDetailsSuccessful"></class>
+            <class name="TC08_Logout"></class>
+        </classes>
+    </test>
+</suite>

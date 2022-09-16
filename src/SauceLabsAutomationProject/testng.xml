@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Ashish.Eerapuram/IdeaProjects/SauceLabsAutomationProject">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="TC01_ValidateLoginSuccessful"></class>
+            <class name="TC02_ProductsDetailsPageDisplayed"></class>
+            <class name="TC03_ValidateAddToCartLink"></class>
+            <class name="TC04_ClickAddToCartLink"></class>
+            <class name="TC05_ValidateCartLink"></class>
+            <class name="TC06_ClickCartLink"></class>
+            <class name="TC07_YourCartPageDisplayed"></class>
+            <class name="TC08_CheckProductAddedSuccessful"></class>
+            <class name="TC09_ValidateMenuBtnEnabled"></class>
+            <class name="TC10_ClickMenuBtn"></class>
+            <class name="TC11_ValidateLogoutButtonEnabled"></class>
+            <class name="TC12_Logout"></class>
+        </classes>
+    </test>
+</suite>
